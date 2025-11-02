@@ -1,0 +1,7 @@
+﻿services:
+  semantickernelchatapp:
+    image: semantickernelchatapp
+    build:
+      context: .
+      dockerfile: SemanticKernelChatApp/Dockerfile
+
